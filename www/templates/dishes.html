@@ -1,9 +1,9 @@
 <ion-view view-title="{{ category }}">
   <ion-content>
-    <ion-list>
-      <ion-item ng-repeat="dish in dishes">
+    <div class="list card" ng-repeat="dish in dishes">
+      <a>
         {{ dish }}
-      </ion-item>
-    </ion-list>
+      </a>
+    </div>
   </ion-content>
 </ion-view>
